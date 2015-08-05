@@ -1,5 +1,5 @@
-React = require 'react'
-LoginForm = require './LoginForm.cjsx'
+# Initialize the client_modules system using the default namespace.
+require('marquee-static-sdk/client/client_modules').activate()
 
-if document.querySelector('.Login__')
-    React.render <LoginForm />, document.querySelector('._PageContent__')
+# Load our local client modules
+require './Login.cjsx'

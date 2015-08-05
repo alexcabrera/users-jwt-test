@@ -5,5 +5,4 @@ Login   = require './views/Login.cjsx'
 
 module.exports = ({ emitFile, done }) ->
     emitFile('/', <Home />)
-    emitFile('/login/', <Login />)
     done()
