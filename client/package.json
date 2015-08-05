@@ -1,29 +1,21 @@
 {
   "name": "jwt-client",
   "version": "0.1.0",
-  "description": "",
+  "description": "A sample user registration and login client for use with JSON Web Tokens",
   "main": "./main.cjsx",
   "scripts": {
     "develop": "npm install && ./node_modules/.bin/marqueestatic develop --verbose --use-cache"
   },
-  "author": "",
+  "author": "Alex Cabrera",
   "license": "ISC",
   "marquee": {
     "CONTENT_API_TOKEN": "r0_1b35a8f473d3cad96a0f4707954b8788ee4413fb",
     "CONTENT_API_HOST": "api.marquee.by",
     "HOST": "example.org"
   },
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
   "dependencies": {
-    "brfs": "^1.4.0",
-    "fs-extra": "^0.22.1",
-    "graceful-fs": "^4.1.2",
-    "marquee-static-sdk": "^0.4.0-alpha.7",
-    "react": "^0.12.2",
+    "marquee-static-sdk": "^0.4.0-alpha.8",
+    "react": "^0.13.3",
     "superagent": "^1.2.0"
   }
 }

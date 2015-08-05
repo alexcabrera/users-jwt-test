@@ -3,12 +3,17 @@ restify = require('restify');
 SECRET  = 'hush'
 
 var server = restify.createServer();
+
+server.pre(restify.CORS());
 server.use(restify.bodyParser());
 server.use(restify.queryParser());
+server.use(restify.fullResponse());
 
 server.post('/login', function(req, res, next){
     var username = req.body.username;
     var password = req.body.password;
+
+    console.log(username, password);
 
     if(username == 'dev' && password == 'dev') {
         var payload = {
