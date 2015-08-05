@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "marquee-static-sdk": "^0.4.0-alpha.7",
-    "react": "^0.13.3",
+    "react": "^0.12.2",
     "superagent": "^1.2.0"
   }
 }
