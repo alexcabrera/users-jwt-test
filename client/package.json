@@ -4,7 +4,7 @@
   "description": "A sample user registration and login client for use with JSON Web Tokens",
   "main": "./main.cjsx",
   "scripts": {
-    "develop": "npm install && ./node_modules/.bin/marqueestatic develop --verbose --use-cache"
+    "start": "npm install && ./node_modules/.bin/marqueestatic develop --verbose --use-cache"
   },
   "author": "Alex Cabrera",
   "license": "ISC",
